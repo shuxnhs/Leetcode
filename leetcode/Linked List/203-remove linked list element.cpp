@@ -2,6 +2,7 @@
 // Created by 何晓宏 on 2018/10/29.
 //
 #include<iostream>
+#include<stack>
 using namespace std;
 struct ListNode{
     int val;
@@ -26,46 +27,64 @@ public:
         return head;
     }
 
-    //删除重复元素
-    ListNode* removeElements(ListNode* head, int val){
 
-        //引入一个指向头节点的指针q
-        ListNode* newnode=new ListNode(-1);
-        newnode->next=head;
-        ListNode* p=head;
-        ListNode* q=newnode;
 
-        while (p){
-            if(p->val != val){
-                q=p;
-                p=p->next;
+    //判断回文链表,采用栈
+    bool isPalindrome(ListNode* head){
+        stack<int>s;
+        //只有一个头或者没有头属于回文链表
+        if(!head || !head->next)  {
+            return true;
+        }
 
-            } else{
-                p=p->next;
-                q->next=p;
+        //将链表中的前一半数据存入栈，联想876的fast与slow
+        ListNode* slow=head;
+        ListNode* fast=head;
+        s.push(head->val);
+
+        //当fast到达链表的最后的时候，slow刚好指向中间，或者中间的第二个,将slow存入
+        while (fast->next &&  fast->next->next){
+            slow=slow->next;
+            fast=fast->next->next;
+            s.push(slow->val);
+        }
+        //弹出奇数中间元素，或偶数的中间第二个，接下来开始判断
+        
+        if(!fast->next){
+            s.pop();
+        }
+    
+
+        while( slow->next){
+
+            slow=slow->next;
+            int temp=s.top();
+            s.pop();
+
+            //当弹出的有一个不与栈弹出的相等则不为回文链表
+            if(temp!= slow->val){
+                return false;
             }
+            
+            
         }
-        return newnode->next;
-    }
-
-
-
-    //输出链表
-    void printList(ListNode *p){
-
-        while (p != NULL){
-            cout<<p->val;
-            p=p->next;
-        }
+        return true;
+        
+        
 
     }
 };
 
-int main(){
-    int a[]={1,2,6,3,4,5,6};
-    int val=6;
+int main()
+{
+    int a[]={1,2,3,2,1};
+    int b[]={1,2,3,3,2,1};
+    int c[]={1,2,3,1,2,3};
     Solution solution;
-    solution.printList(solution.removeElements(solution.createList(a,7),val));
+    solution.isPalindrome(solution.createList(a,5));
+    solution.isPalindrome(solution.createList(b,6));
+    solution.isPalindrome(solution.createList(c,6));
+
     return 0;
 }
 
