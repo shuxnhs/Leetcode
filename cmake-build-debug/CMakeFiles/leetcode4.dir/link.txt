@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/leetcode4.dir/Linked_List/203-remove_linked_list_element.cpp.o  -o leetcode4 

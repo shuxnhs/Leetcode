@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/leetcode16.dir/stack/155-minstack.cpp.o  -o leetcode16 

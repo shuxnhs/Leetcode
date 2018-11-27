@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/leetcode.dir/Dynamic_hash_index/main.cpp.o  -o leetcode 
