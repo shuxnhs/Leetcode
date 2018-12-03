@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode11.dir/Linked_List/82-remove_duplicates_from_sorted_listⅡ.cpp.o  -o leetcode11 

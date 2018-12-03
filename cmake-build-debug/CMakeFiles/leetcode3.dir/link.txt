@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode3.dir/Linked_List/19-remove_nth_node_from_end_of_list.cpp.o  -o leetcode3 

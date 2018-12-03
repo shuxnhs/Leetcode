@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode8.dir/Linked_List/21-merge_two_sorted_lists-1.cpp.o  -o leetcode8 

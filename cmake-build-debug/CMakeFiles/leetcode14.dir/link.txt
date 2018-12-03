@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/leetcode14.dir/Linked_List/92-reverse_linked_listⅡ.cpp.o  -o leetcode14 
