@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack.dir/155-minstack.cpp.o  -o stack 

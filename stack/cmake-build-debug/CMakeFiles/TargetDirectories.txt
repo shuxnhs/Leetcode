@@ -1,0 +1,10 @@
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack7.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack6.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack5.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack2.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack4.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack1.dir
+/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles/stack3.dir

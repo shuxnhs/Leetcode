@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack7.dir/946-Validate_Stack_Sequences.cpp.o  -o stack7 

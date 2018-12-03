@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack4.dir/20-Valid_Parentheses.cpp.o  -o stack4 

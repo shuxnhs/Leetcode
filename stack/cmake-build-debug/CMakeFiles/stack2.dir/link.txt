@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack2.dir/496-Next_Greater_Element_I.cpp.o  -o stack2 

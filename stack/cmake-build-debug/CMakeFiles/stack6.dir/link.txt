@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack6.dir/682-Baseball_Game.cpp.o  -o stack6 

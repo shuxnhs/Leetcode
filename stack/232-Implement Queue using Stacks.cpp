@@ -1,3 +1,4 @@
+//用栈来实现队列
 #include <iostream>
 #include <stack>
 using namespace std;
