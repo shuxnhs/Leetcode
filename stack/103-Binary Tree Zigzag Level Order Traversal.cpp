@@ -1,6 +1,6 @@
 //
 // Created by shuxnhs on 18-12-4.
-//双端队列
+//双端队列栈的层次遍历
 //queue1.push_back();   尾插入
 //queue1.push_front();  头插入
 //queue1.pop_back();    尾弹出
