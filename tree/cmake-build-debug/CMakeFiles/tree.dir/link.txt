@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree.dir/100-Same_Tree.cpp.o  -o tree 
