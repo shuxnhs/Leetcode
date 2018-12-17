@@ -1,4 +1,6 @@
 /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/queue.dir
 /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/queue1.dir
-/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/queue.dir
+/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/queue3.dir
+/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles/queue2.dir

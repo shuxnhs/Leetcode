@@ -65,6 +65,43 @@ CMAKE_SOURCE_DIR = /home/shuxnhs/Documents/C++/Leetcode/queue
 CMAKE_BINARY_DIR = /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/queue.dir
+
+# All Build rule for target.
+CMakeFiles/queue.dir/all:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/depend
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target queue"
+.PHONY : CMakeFiles/queue.dir/all
+
+# Include target in all.
+all: CMakeFiles/queue.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/queue.dir/rule
+
+# Convenience name for target.
+queue: CMakeFiles/queue.dir/rule
+
+.PHONY : queue
+
+# clean rule for target.
+CMakeFiles/queue.dir/clean:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/clean
+.PHONY : CMakeFiles/queue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/queue.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/queue1.dir
 
 # All Build rule for target.
@@ -102,39 +139,76 @@ clean: CMakeFiles/queue1.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/queue.dir
+# Target rules for target CMakeFiles/queue3.dir
 
 # All Build rule for target.
-CMakeFiles/queue.dir/all:
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/depend
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target queue"
-.PHONY : CMakeFiles/queue.dir/all
+CMakeFiles/queue3.dir/all:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/depend
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target queue3"
+.PHONY : CMakeFiles/queue3.dir/all
 
 # Include target in all.
-all: CMakeFiles/queue.dir/all
+all: CMakeFiles/queue3.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/queue.dir/rule: cmake_check_build_system
+CMakeFiles/queue3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/queue.dir/rule
+.PHONY : CMakeFiles/queue3.dir/rule
 
 # Convenience name for target.
-queue: CMakeFiles/queue.dir/rule
+queue3: CMakeFiles/queue3.dir/rule
 
-.PHONY : queue
-
-# clean rule for target.
-CMakeFiles/queue.dir/clean:
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/clean
-.PHONY : CMakeFiles/queue.dir/clean
+.PHONY : queue3
 
 # clean rule for target.
-clean: CMakeFiles/queue.dir/clean
+CMakeFiles/queue3.dir/clean:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/clean
+.PHONY : CMakeFiles/queue3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/queue3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queue2.dir
+
+# All Build rule for target.
+CMakeFiles/queue2.dir/all:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/depend
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target queue2"
+.PHONY : CMakeFiles/queue2.dir/all
+
+# Include target in all.
+all: CMakeFiles/queue2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queue2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/queue2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/queue/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/queue2.dir/rule
+
+# Convenience name for target.
+queue2: CMakeFiles/queue2.dir/rule
+
+.PHONY : queue2
+
+# clean rule for target.
+CMakeFiles/queue2.dir/clean:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/clean
+.PHONY : CMakeFiles/queue2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/queue2.dir/clean
 
 .PHONY : clean
 

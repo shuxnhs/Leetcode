@@ -1,5 +1,6 @@
 //
 // Created by shuxnhs on 18-12-17.
+//设计循环队列
 //
 
 #include <iostream>
@@ -87,7 +88,7 @@ public:
 
     }
 
-    //求双端队列中元素的个数(rear-front+maxSize)%maxSize
+    //求循环队列中元素的个数(rear-front+maxSize)%maxSize
     int getSize(){
         return (rear-front+maxSize)%maxSize;
     }

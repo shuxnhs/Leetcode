@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+#=============================================================================
 # Target rules for targets named queue1
 
 # Build rule for target.
@@ -124,17 +137,30 @@ queue1/fast:
 .PHONY : queue1/fast
 
 #=============================================================================
-# Target rules for targets named queue
+# Target rules for targets named queue3
 
 # Build rule for target.
-queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queue
-.PHONY : queue
+queue3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue3
+.PHONY : queue3
 
 # fast build rule for target.
-queue/fast:
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
-.PHONY : queue/fast
+queue3/fast:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/build
+.PHONY : queue3/fast
+
+#=============================================================================
+# Target rules for targets named queue2
+
+# Build rule for target.
+queue2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue2
+.PHONY : queue2
+
+# fast build rule for target.
+queue2/fast:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/build
+.PHONY : queue2/fast
 
 622-Design_Circular_Queue.o: 622-Design_Circular_Queue.cpp.o
 
@@ -162,6 +188,60 @@ queue/fast:
 622-Design_Circular_Queue.cpp.s:
 	$(MAKE) -f CMakeFiles/queue1.dir/build.make CMakeFiles/queue1.dir/622-Design_Circular_Queue.cpp.s
 .PHONY : 622-Design_Circular_Queue.cpp.s
+
+641-Design_Circular_Deque.o: 641-Design_Circular_Deque.cpp.o
+
+.PHONY : 641-Design_Circular_Deque.o
+
+# target to build an object file
+641-Design_Circular_Deque.cpp.o:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/641-Design_Circular_Deque.cpp.o
+.PHONY : 641-Design_Circular_Deque.cpp.o
+
+641-Design_Circular_Deque.i: 641-Design_Circular_Deque.cpp.i
+
+.PHONY : 641-Design_Circular_Deque.i
+
+# target to preprocess a source file
+641-Design_Circular_Deque.cpp.i:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/641-Design_Circular_Deque.cpp.i
+.PHONY : 641-Design_Circular_Deque.cpp.i
+
+641-Design_Circular_Deque.s: 641-Design_Circular_Deque.cpp.s
+
+.PHONY : 641-Design_Circular_Deque.s
+
+# target to generate assembly for a file
+641-Design_Circular_Deque.cpp.s:
+	$(MAKE) -f CMakeFiles/queue2.dir/build.make CMakeFiles/queue2.dir/641-Design_Circular_Deque.cpp.s
+.PHONY : 641-Design_Circular_Deque.cpp.s
+
+862-Shortest_Subarray_with_Sum_at_Least_K.o: 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.o
+
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.o
+
+# target to build an object file
+862-Shortest_Subarray_with_Sum_at_Least_K.cpp.o:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/862-Shortest_Subarray_with_Sum_at_Least_K.cpp.o
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.o
+
+862-Shortest_Subarray_with_Sum_at_Least_K.i: 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.i
+
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.i
+
+# target to preprocess a source file
+862-Shortest_Subarray_with_Sum_at_Least_K.cpp.i:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/862-Shortest_Subarray_with_Sum_at_Least_K.cpp.i
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.i
+
+862-Shortest_Subarray_with_Sum_at_Least_K.s: 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.s
+
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.s
+
+# target to generate assembly for a file
+862-Shortest_Subarray_with_Sum_at_Least_K.cpp.s:
+	$(MAKE) -f CMakeFiles/queue3.dir/build.make CMakeFiles/queue3.dir/862-Shortest_Subarray_with_Sum_at_Least_K.cpp.s
+.PHONY : 862-Shortest_Subarray_with_Sum_at_Least_K.cpp.s
 
 933-Number_of_Recent_Calls.o: 933-Number_of_Recent_Calls.cpp.o
 
@@ -197,12 +277,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... queue"
 	@echo "... edit_cache"
 	@echo "... queue1"
-	@echo "... queue"
+	@echo "... queue3"
+	@echo "... queue2"
 	@echo "... 622-Design_Circular_Queue.o"
 	@echo "... 622-Design_Circular_Queue.i"
 	@echo "... 622-Design_Circular_Queue.s"
+	@echo "... 641-Design_Circular_Deque.o"
+	@echo "... 641-Design_Circular_Deque.i"
+	@echo "... 641-Design_Circular_Deque.s"
+	@echo "... 862-Shortest_Subarray_with_Sum_at_Least_K.o"
+	@echo "... 862-Shortest_Subarray_with_Sum_at_Least_K.i"
+	@echo "... 862-Shortest_Subarray_with_Sum_at_Least_K.s"
 	@echo "... 933-Number_of_Recent_Calls.o"
 	@echo "... 933-Number_of_Recent_Calls.i"
 	@echo "... 933-Number_of_Recent_Calls.s"
