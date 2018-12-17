@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/queue1.dir/622-Design_Circular_Queue.cpp.o  -o queue1 
