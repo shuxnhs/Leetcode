@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shuxnhs/Documents/C++/Leetcode/tree/100-Same Tree.cpp
+/home/shuxnhs/Documents/C++/Leetcode/tree/101-Symmetric Tree.cpp
 iostream
--
-
-/home/shuxnhs/Documents/C++/Leetcode/tree/559-Maximum Depth of N-ary Tree.cpp
-iostream
--
-vector
 -
 

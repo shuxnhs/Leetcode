@@ -27,11 +27,89 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="tree5">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree5/fast">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree4">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree4/fast">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree4/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,9 +159,166 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree1">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree1/fast">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree3">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree3/fast">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree2">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree2/fast">
+				<Option output="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/tree2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/100-Same Tree.cpp">
 			<Option target="tree"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/101-Symmetric Tree.cpp">
+			<Option target="tree1"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/104-Maximum Depth of Binary Tree.cpp">
+			<Option target="tree2"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/111-Minimum Depth of Binary Tree.cpp">
+			<Option target="tree3"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/559-Maximum Depth of N-ary Tree.cpp">
+			<Option target="tree4"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/662-Maximum Width of Binary Tree.cpp">
+			<Option target="tree5"/>
 		</Unit>
 		<Unit filename="/home/shuxnhs/Documents/C++/Leetcode/tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

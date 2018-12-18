@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree1.dir/101-Symmetric_Tree.cpp.o  -o tree1 

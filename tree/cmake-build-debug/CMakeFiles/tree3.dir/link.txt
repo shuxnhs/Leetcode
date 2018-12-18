@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree3.dir/111-Minimum_Depth_of_Binary_Tree.cpp.o  -o tree3 

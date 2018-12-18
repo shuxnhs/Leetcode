@@ -65,6 +65,80 @@ CMAKE_SOURCE_DIR = /home/shuxnhs/Documents/C++/Leetcode/tree
 CMAKE_BINARY_DIR = /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/tree5.dir
+
+# All Build rule for target.
+CMakeFiles/tree5.dir/all:
+	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/depend
+	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target tree5"
+.PHONY : CMakeFiles/tree5.dir/all
+
+# Include target in all.
+all: CMakeFiles/tree5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree5.dir/rule
+
+# Convenience name for target.
+tree5: CMakeFiles/tree5.dir/rule
+
+.PHONY : tree5
+
+# clean rule for target.
+CMakeFiles/tree5.dir/clean:
+	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/clean
+.PHONY : CMakeFiles/tree5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree5.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tree4.dir
+
+# All Build rule for target.
+CMakeFiles/tree4.dir/all:
+	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/depend
+	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target tree4"
+.PHONY : CMakeFiles/tree4.dir/all
+
+# Include target in all.
+all: CMakeFiles/tree4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree4.dir/rule
+
+# Convenience name for target.
+tree4: CMakeFiles/tree4.dir/rule
+
+.PHONY : tree4
+
+# clean rule for target.
+CMakeFiles/tree4.dir/clean:
+	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/clean
+.PHONY : CMakeFiles/tree4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tree.dir
 
 # All Build rule for target.
@@ -98,6 +172,117 @@ CMakeFiles/tree.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/tree.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tree1.dir
+
+# All Build rule for target.
+CMakeFiles/tree1.dir/all:
+	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/depend
+	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target tree1"
+.PHONY : CMakeFiles/tree1.dir/all
+
+# Include target in all.
+all: CMakeFiles/tree1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree1.dir/rule
+
+# Convenience name for target.
+tree1: CMakeFiles/tree1.dir/rule
+
+.PHONY : tree1
+
+# clean rule for target.
+CMakeFiles/tree1.dir/clean:
+	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/clean
+.PHONY : CMakeFiles/tree1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tree3.dir
+
+# All Build rule for target.
+CMakeFiles/tree3.dir/all:
+	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/depend
+	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target tree3"
+.PHONY : CMakeFiles/tree3.dir/all
+
+# Include target in all.
+all: CMakeFiles/tree3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree3.dir/rule
+
+# Convenience name for target.
+tree3: CMakeFiles/tree3.dir/rule
+
+.PHONY : tree3
+
+# clean rule for target.
+CMakeFiles/tree3.dir/clean:
+	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/clean
+.PHONY : CMakeFiles/tree3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tree2.dir
+
+# All Build rule for target.
+CMakeFiles/tree2.dir/all:
+	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/depend
+	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target tree2"
+.PHONY : CMakeFiles/tree2.dir/all
+
+# Include target in all.
+all: CMakeFiles/tree2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/Leetcode/tree/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree2.dir/rule
+
+# Convenience name for target.
+tree2: CMakeFiles/tree2.dir/rule
+
+.PHONY : tree2
+
+# clean rule for target.
+CMakeFiles/tree2.dir/clean:
+	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/clean
+.PHONY : CMakeFiles/tree2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree2.dir/clean
 
 .PHONY : clean
 

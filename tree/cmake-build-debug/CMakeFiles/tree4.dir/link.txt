@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree4.dir/559-Maximum_Depth_of_N-ary_Tree.cpp.o  -o tree4 

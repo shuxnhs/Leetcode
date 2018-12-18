@@ -1,7 +1,8 @@
 //
 // Created by shuxnhs on 18-12-18.
-//判断两树是否相等
+//给定一个二叉树，找出其最大深度。
 //
+
 
 #include <iostream>
 using namespace std;
@@ -42,25 +43,27 @@ TreeNode* createTree(int a[], int n)
 
 class Solution {
 public:
-    bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(!p && !q)    {
-            return true;
-        }
-        else if ((p&& !q)||(!p && q)) {
-            return false;
-        }
-        else {
-            return (isSameTree(p->left,q->left) && isSameTree(p->right,q->right) && (p->val==q->val));
-        }
 
+    int maxDepth(TreeNode* root) {
+
+        if(!root) return 0;
+        int left=maxDepth(root->left);
+        int right=maxDepth(root->right);
+        return max(left,right)+1;
 
     }
+
+
+
 };
 int main() {
-    int a[] = {1, NULL ,2,3};
-    TreeNode* p = createTree(a, sizeof(a)/sizeof(int));
-    TreeNode* q = createTree(a, sizeof(a)/sizeof(int));
     Solution solution;
-    cout<<solution.isSameTree(p,q);
-    cout<<endl;
+
+    int a[] = {3,9,20,NULL,NULL,15,7};
+    TreeNode* p = createTree(a, sizeof(a)/sizeof(int));
+
+    cout<<solution.maxDepth(p);
+
 }
+
+
