@@ -45,18 +45,16 @@ TreeNode* createTree(int a[], int n)
 class Solution {
 public:
 
-    void dfs(TreeNode * node, stack<int>&stack1){
-        if(!node->left && !node->right){
-            stack1.push(0);
-        }
-        if(node->right)  dfs(node->right,vector1);
-        if(node->left)   dfs(node->left,vector1);
+    int dfs(TreeNode * root, stack<int>&stack1){
+
+        if(!root)   return 0;
+        int left = dfs(root->left,stack1);
+        int right = dfs(root->right,stack1);
+        stack1.push(abs(left-right));
+
+        return left+right+root->val;
 
     }
-
-
-
-
 
 
     int findTilt(TreeNode* root) {
