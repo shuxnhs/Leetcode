@@ -38,15 +38,13 @@ TreeNode* createTree(int a[], int n)
     return tree[0];
 }
 
-
-
 class Solution {
 public:
 
     bool checkEquarl(TreeNode* left, TreeNode* right){
-        if((!left)&&(!right))                           return true;
+        if((!left)&&(!right))                            return true;
 
-        else if(( !left && right)||( left && !right))   return false;
+        else if(( !left && right)||( left && !right))    return false;
 
         else{
 

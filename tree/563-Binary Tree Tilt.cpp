@@ -61,7 +61,7 @@ public:
         stack<int> stack1;
         int Tilt=0;
         dfs(root,stack1);
-        //TODO:计算stack中的和
+        //计算stack中的和
         while (!stack1.empty()){
             Tilt+=stack1.top();
             stack1.pop();

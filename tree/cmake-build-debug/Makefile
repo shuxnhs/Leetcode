@@ -111,82 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tree6
+# Target rules for targets named tree2
 
 # Build rule for target.
-tree6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree6
-.PHONY : tree6
+tree2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree2
+.PHONY : tree2
 
 # fast build rule for target.
-tree6/fast:
-	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/build
-.PHONY : tree6/fast
-
-#=============================================================================
-# Target rules for targets named tree5
-
-# Build rule for target.
-tree5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree5
-.PHONY : tree5
-
-# fast build rule for target.
-tree5/fast:
-	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/build
-.PHONY : tree5/fast
-
-#=============================================================================
-# Target rules for targets named tree4
-
-# Build rule for target.
-tree4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree4
-.PHONY : tree4
-
-# fast build rule for target.
-tree4/fast:
-	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/build
-.PHONY : tree4/fast
-
-#=============================================================================
-# Target rules for targets named tree
-
-# Build rule for target.
-tree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree
-.PHONY : tree
-
-# fast build rule for target.
-tree/fast:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-.PHONY : tree/fast
-
-#=============================================================================
-# Target rules for targets named tree7
-
-# Build rule for target.
-tree7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree7
-.PHONY : tree7
-
-# fast build rule for target.
-tree7/fast:
-	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/build
-.PHONY : tree7/fast
-
-#=============================================================================
-# Target rules for targets named tree1
-
-# Build rule for target.
-tree1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree1
-.PHONY : tree1
-
-# fast build rule for target.
-tree1/fast:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
-.PHONY : tree1/fast
+tree2/fast:
+	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/build
+.PHONY : tree2/fast
 
 #=============================================================================
 # Target rules for targets named tree3
@@ -202,17 +137,95 @@ tree3/fast:
 .PHONY : tree3/fast
 
 #=============================================================================
-# Target rules for targets named tree2
+# Target rules for targets named tree1
 
 # Build rule for target.
-tree2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree2
-.PHONY : tree2
+tree1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree1
+.PHONY : tree1
 
 # fast build rule for target.
-tree2/fast:
-	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/build
-.PHONY : tree2/fast
+tree1/fast:
+	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
+.PHONY : tree1/fast
+
+#=============================================================================
+# Target rules for targets named tree
+
+# Build rule for target.
+tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
+
+# fast build rule for target.
+tree/fast:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
+
+#=============================================================================
+# Target rules for targets named tree4
+
+# Build rule for target.
+tree4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree4
+.PHONY : tree4
+
+# fast build rule for target.
+tree4/fast:
+	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/build
+.PHONY : tree4/fast
+
+#=============================================================================
+# Target rules for targets named tree5
+
+# Build rule for target.
+tree5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree5
+.PHONY : tree5
+
+# fast build rule for target.
+tree5/fast:
+	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/build
+.PHONY : tree5/fast
+
+#=============================================================================
+# Target rules for targets named tree7
+
+# Build rule for target.
+tree7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree7
+.PHONY : tree7
+
+# fast build rule for target.
+tree7/fast:
+	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/build
+.PHONY : tree7/fast
+
+#=============================================================================
+# Target rules for targets named tree6
+
+# Build rule for target.
+tree6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree6
+.PHONY : tree6
+
+# fast build rule for target.
+tree6/fast:
+	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/build
+.PHONY : tree6/fast
+
+#=============================================================================
+# Target rules for targets named tree8
+
+# Build rule for target.
+tree8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree8
+.PHONY : tree8
+
+# fast build rule for target.
+tree8/fast:
+	$(MAKE) -f CMakeFiles/tree8.dir/build.make CMakeFiles/tree8.dir/build
+.PHONY : tree8/fast
 
 100-Same_Tree.o: 100-Same_Tree.cpp.o
 
@@ -321,6 +334,33 @@ tree2/fast:
 111-Minimum_Depth_of_Binary_Tree.cpp.s:
 	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/111-Minimum_Depth_of_Binary_Tree.cpp.s
 .PHONY : 111-Minimum_Depth_of_Binary_Tree.cpp.s
+
+226-Invert_Binary_Tree.o: 226-Invert_Binary_Tree.cpp.o
+
+.PHONY : 226-Invert_Binary_Tree.o
+
+# target to build an object file
+226-Invert_Binary_Tree.cpp.o:
+	$(MAKE) -f CMakeFiles/tree8.dir/build.make CMakeFiles/tree8.dir/226-Invert_Binary_Tree.cpp.o
+.PHONY : 226-Invert_Binary_Tree.cpp.o
+
+226-Invert_Binary_Tree.i: 226-Invert_Binary_Tree.cpp.i
+
+.PHONY : 226-Invert_Binary_Tree.i
+
+# target to preprocess a source file
+226-Invert_Binary_Tree.cpp.i:
+	$(MAKE) -f CMakeFiles/tree8.dir/build.make CMakeFiles/tree8.dir/226-Invert_Binary_Tree.cpp.i
+.PHONY : 226-Invert_Binary_Tree.cpp.i
+
+226-Invert_Binary_Tree.s: 226-Invert_Binary_Tree.cpp.s
+
+.PHONY : 226-Invert_Binary_Tree.s
+
+# target to generate assembly for a file
+226-Invert_Binary_Tree.cpp.s:
+	$(MAKE) -f CMakeFiles/tree8.dir/build.make CMakeFiles/tree8.dir/226-Invert_Binary_Tree.cpp.s
+.PHONY : 226-Invert_Binary_Tree.cpp.s
 
 559-Maximum_Depth_of_N-ary_Tree.o: 559-Maximum_Depth_of_N-ary_Tree.cpp.o
 
@@ -437,15 +477,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... tree6"
-	@echo "... tree5"
-	@echo "... tree4"
-	@echo "... tree"
-	@echo "... edit_cache"
-	@echo "... tree7"
-	@echo "... tree1"
-	@echo "... tree3"
 	@echo "... tree2"
+	@echo "... tree3"
+	@echo "... tree1"
+	@echo "... edit_cache"
+	@echo "... tree"
+	@echo "... tree4"
+	@echo "... tree5"
+	@echo "... tree7"
+	@echo "... tree6"
+	@echo "... tree8"
 	@echo "... 100-Same_Tree.o"
 	@echo "... 100-Same_Tree.i"
 	@echo "... 100-Same_Tree.s"
@@ -458,6 +499,9 @@ help:
 	@echo "... 111-Minimum_Depth_of_Binary_Tree.o"
 	@echo "... 111-Minimum_Depth_of_Binary_Tree.i"
 	@echo "... 111-Minimum_Depth_of_Binary_Tree.s"
+	@echo "... 226-Invert_Binary_Tree.o"
+	@echo "... 226-Invert_Binary_Tree.i"
+	@echo "... 226-Invert_Binary_Tree.s"
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.o"
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.i"
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.s"
