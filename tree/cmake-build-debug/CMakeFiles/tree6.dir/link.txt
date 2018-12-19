@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree6.dir/872-Leaf-Similar_Trees.cpp.o  -o tree6 

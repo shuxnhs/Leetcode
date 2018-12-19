@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tree7.dir/563-Binary_Tree_Tilt.cpp.o  -o tree7 

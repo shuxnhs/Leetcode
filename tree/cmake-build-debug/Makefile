@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tree6
+
+# Build rule for target.
+tree6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree6
+.PHONY : tree6
+
+# fast build rule for target.
+tree6/fast:
+	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/build
+.PHONY : tree6/fast
+
+#=============================================================================
 # Target rules for targets named tree5
 
 # Build rule for target.
@@ -148,6 +161,19 @@ tree: cmake_check_build_system
 tree/fast:
 	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
 .PHONY : tree/fast
+
+#=============================================================================
+# Target rules for targets named tree7
+
+# Build rule for target.
+tree7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree7
+.PHONY : tree7
+
+# fast build rule for target.
+tree7/fast:
+	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/build
+.PHONY : tree7/fast
 
 #=============================================================================
 # Target rules for targets named tree1
@@ -323,6 +349,33 @@ tree2/fast:
 	$(MAKE) -f CMakeFiles/tree4.dir/build.make CMakeFiles/tree4.dir/559-Maximum_Depth_of_N-ary_Tree.cpp.s
 .PHONY : 559-Maximum_Depth_of_N-ary_Tree.cpp.s
 
+563-Binary_Tree_Tilt.o: 563-Binary_Tree_Tilt.cpp.o
+
+.PHONY : 563-Binary_Tree_Tilt.o
+
+# target to build an object file
+563-Binary_Tree_Tilt.cpp.o:
+	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/563-Binary_Tree_Tilt.cpp.o
+.PHONY : 563-Binary_Tree_Tilt.cpp.o
+
+563-Binary_Tree_Tilt.i: 563-Binary_Tree_Tilt.cpp.i
+
+.PHONY : 563-Binary_Tree_Tilt.i
+
+# target to preprocess a source file
+563-Binary_Tree_Tilt.cpp.i:
+	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/563-Binary_Tree_Tilt.cpp.i
+.PHONY : 563-Binary_Tree_Tilt.cpp.i
+
+563-Binary_Tree_Tilt.s: 563-Binary_Tree_Tilt.cpp.s
+
+.PHONY : 563-Binary_Tree_Tilt.s
+
+# target to generate assembly for a file
+563-Binary_Tree_Tilt.cpp.s:
+	$(MAKE) -f CMakeFiles/tree7.dir/build.make CMakeFiles/tree7.dir/563-Binary_Tree_Tilt.cpp.s
+.PHONY : 563-Binary_Tree_Tilt.cpp.s
+
 662-Maximum_Width_of_Binary_Tree.o: 662-Maximum_Width_of_Binary_Tree.cpp.o
 
 .PHONY : 662-Maximum_Width_of_Binary_Tree.o
@@ -350,6 +403,33 @@ tree2/fast:
 	$(MAKE) -f CMakeFiles/tree5.dir/build.make CMakeFiles/tree5.dir/662-Maximum_Width_of_Binary_Tree.cpp.s
 .PHONY : 662-Maximum_Width_of_Binary_Tree.cpp.s
 
+872-Leaf-Similar_Trees.o: 872-Leaf-Similar_Trees.cpp.o
+
+.PHONY : 872-Leaf-Similar_Trees.o
+
+# target to build an object file
+872-Leaf-Similar_Trees.cpp.o:
+	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/872-Leaf-Similar_Trees.cpp.o
+.PHONY : 872-Leaf-Similar_Trees.cpp.o
+
+872-Leaf-Similar_Trees.i: 872-Leaf-Similar_Trees.cpp.i
+
+.PHONY : 872-Leaf-Similar_Trees.i
+
+# target to preprocess a source file
+872-Leaf-Similar_Trees.cpp.i:
+	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/872-Leaf-Similar_Trees.cpp.i
+.PHONY : 872-Leaf-Similar_Trees.cpp.i
+
+872-Leaf-Similar_Trees.s: 872-Leaf-Similar_Trees.cpp.s
+
+.PHONY : 872-Leaf-Similar_Trees.s
+
+# target to generate assembly for a file
+872-Leaf-Similar_Trees.cpp.s:
+	$(MAKE) -f CMakeFiles/tree6.dir/build.make CMakeFiles/tree6.dir/872-Leaf-Similar_Trees.cpp.s
+.PHONY : 872-Leaf-Similar_Trees.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,10 +437,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... tree6"
 	@echo "... tree5"
 	@echo "... tree4"
 	@echo "... tree"
 	@echo "... edit_cache"
+	@echo "... tree7"
 	@echo "... tree1"
 	@echo "... tree3"
 	@echo "... tree2"
@@ -379,9 +461,15 @@ help:
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.o"
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.i"
 	@echo "... 559-Maximum_Depth_of_N-ary_Tree.s"
+	@echo "... 563-Binary_Tree_Tilt.o"
+	@echo "... 563-Binary_Tree_Tilt.i"
+	@echo "... 563-Binary_Tree_Tilt.s"
 	@echo "... 662-Maximum_Width_of_Binary_Tree.o"
 	@echo "... 662-Maximum_Width_of_Binary_Tree.i"
 	@echo "... 662-Maximum_Width_of_Binary_Tree.s"
+	@echo "... 872-Leaf-Similar_Trees.o"
+	@echo "... 872-Leaf-Similar_Trees.i"
+	@echo "... 872-Leaf-Similar_Trees.s"
 .PHONY : help
 
 

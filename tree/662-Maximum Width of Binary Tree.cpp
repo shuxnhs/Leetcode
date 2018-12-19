@@ -51,12 +51,13 @@ public:
         int maxWidth = 0;
         deque<TreeNode*> deque1;
         deque1.push_back(root);
+
         while (!deque1.empty()) {
 
             int len = deque1.size();
 
             maxWidth = len > maxWidth ? len : maxWidth;
-
+            //将每一层的结点入站
             for (int i=0; i<len; ++i) {
                 TreeNode* n = deque1.front();
                 deque1.pop_front();
@@ -68,6 +69,7 @@ public:
                     deque1.push_back(NULL);
                 }
             }
+
             while (!deque1.empty()) {
                 if (deque1.back() == NULL)      deque1.pop_back();
                 else break;
