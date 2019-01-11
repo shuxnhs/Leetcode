@@ -1,5 +1,6 @@
 //
 // Created by 何晓宏 on 2018/10/29.
+//修改指针指向
 //
 #include<iostream>
 #include<stack>
@@ -39,7 +40,7 @@ public:
             ListNode* q=head->next;
             ListNode* r=head->next->next;
 
-            //开始反转，将头节点指向null,变成尾结点
+            //开始反转，将头节点指向null
             p->next=NULL;
 
             //将q的next移到p；p、q、r向右移

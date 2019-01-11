@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack18.dir/856-Score_of_Parentheses.cpp.o  -o stack18 

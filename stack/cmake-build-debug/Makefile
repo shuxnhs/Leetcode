@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/shuxnhs/Documents/C++/stack/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,199 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stack7
+# Target rules for targets named stack17
 
 # Build rule for target.
-stack7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack7
-.PHONY : stack7
+stack17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack17
+.PHONY : stack17
 
 # fast build rule for target.
-stack7/fast:
-	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/build
-.PHONY : stack7/fast
+stack17/fast:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/build
+.PHONY : stack17/fast
+
+#=============================================================================
+# Target rules for targets named stack16
+
+# Build rule for target.
+stack16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack16
+.PHONY : stack16
+
+# fast build rule for target.
+stack16/fast:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/build
+.PHONY : stack16/fast
+
+#=============================================================================
+# Target rules for targets named stack15
+
+# Build rule for target.
+stack15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack15
+.PHONY : stack15
+
+# fast build rule for target.
+stack15/fast:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/build
+.PHONY : stack15/fast
+
+#=============================================================================
+# Target rules for targets named stack13
+
+# Build rule for target.
+stack13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack13
+.PHONY : stack13
+
+# fast build rule for target.
+stack13/fast:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/build
+.PHONY : stack13/fast
+
+#=============================================================================
+# Target rules for targets named stack12
+
+# Build rule for target.
+stack12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack12
+.PHONY : stack12
+
+# fast build rule for target.
+stack12/fast:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make CMakeFiles/stack12.dir/build
+.PHONY : stack12/fast
+
+#=============================================================================
+# Target rules for targets named stack11
+
+# Build rule for target.
+stack11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack11
+.PHONY : stack11
+
+# fast build rule for target.
+stack11/fast:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/build
+.PHONY : stack11/fast
+
+#=============================================================================
+# Target rules for targets named stack10
+
+# Build rule for target.
+stack10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack10
+.PHONY : stack10
+
+# fast build rule for target.
+stack10/fast:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make CMakeFiles/stack10.dir/build
+.PHONY : stack10/fast
+
+#=============================================================================
+# Target rules for targets named stack3
+
+# Build rule for target.
+stack3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack3
+.PHONY : stack3
+
+# fast build rule for target.
+stack3/fast:
+	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/build
+.PHONY : stack3/fast
+
+#=============================================================================
+# Target rules for targets named stack9
+
+# Build rule for target.
+stack9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack9
+.PHONY : stack9
+
+# fast build rule for target.
+stack9/fast:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make CMakeFiles/stack9.dir/build
+.PHONY : stack9/fast
+
+#=============================================================================
+# Target rules for targets named stack1
+
+# Build rule for target.
+stack1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack1
+.PHONY : stack1
+
+# fast build rule for target.
+stack1/fast:
+	$(MAKE) -f CMakeFiles/stack1.dir/build.make CMakeFiles/stack1.dir/build
+.PHONY : stack1/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named stack4
+
+# Build rule for target.
+stack4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack4
+.PHONY : stack4
+
+# fast build rule for target.
+stack4/fast:
+	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/build
+.PHONY : stack4/fast
+
+#=============================================================================
+# Target rules for targets named stack18
+
+# Build rule for target.
+stack18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack18
+.PHONY : stack18
+
+# fast build rule for target.
+stack18/fast:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/build
+.PHONY : stack18/fast
+
+#=============================================================================
+# Target rules for targets named stack14
+
+# Build rule for target.
+stack14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack14
+.PHONY : stack14
+
+# fast build rule for target.
+stack14/fast:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make CMakeFiles/stack14.dir/build
+.PHONY : stack14/fast
+
+#=============================================================================
+# Target rules for targets named stack2
+
+# Build rule for target.
+stack2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack2
+.PHONY : stack2
+
+# fast build rule for target.
+stack2/fast:
+	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
+.PHONY : stack2/fast
 
 #=============================================================================
 # Target rules for targets named stack6
@@ -150,69 +332,219 @@ stack5/fast:
 .PHONY : stack5/fast
 
 #=============================================================================
-# Target rules for targets named stack2
+# Target rules for targets named stack8
 
 # Build rule for target.
-stack2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack2
-.PHONY : stack2
+stack8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack8
+.PHONY : stack8
 
 # fast build rule for target.
-stack2/fast:
-	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
-.PHONY : stack2/fast
+stack8/fast:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/build
+.PHONY : stack8/fast
 
 #=============================================================================
-# Target rules for targets named stack4
+# Target rules for targets named stack7
 
 # Build rule for target.
-stack4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack4
-.PHONY : stack4
+stack7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack7
+.PHONY : stack7
 
 # fast build rule for target.
-stack4/fast:
-	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/build
-.PHONY : stack4/fast
+stack7/fast:
+	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/build
+.PHONY : stack7/fast
 
-#=============================================================================
-# Target rules for targets named stack
+103-Binary_Tree_Zigzag_Level_Order_Traversal.o: 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.o
 
-# Build rule for target.
-stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack
-.PHONY : stack
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.o
 
-# fast build rule for target.
-stack/fast:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
-.PHONY : stack/fast
+# target to build an object file
+103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.o
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.o
 
-#=============================================================================
-# Target rules for targets named stack1
+103-Binary_Tree_Zigzag_Level_Order_Traversal.i: 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i
 
-# Build rule for target.
-stack1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack1
-.PHONY : stack1
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.i
 
-# fast build rule for target.
-stack1/fast:
-	$(MAKE) -f CMakeFiles/stack1.dir/build.make CMakeFiles/stack1.dir/build
-.PHONY : stack1/fast
+# target to preprocess a source file
+103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.i
 
-#=============================================================================
-# Target rules for targets named stack3
+103-Binary_Tree_Zigzag_Level_Order_Traversal.s: 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s
 
-# Build rule for target.
-stack3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack3
-.PHONY : stack3
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.s
 
-# fast build rule for target.
-stack3/fast:
-	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/build
-.PHONY : stack3/fast
+# target to generate assembly for a file
+103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s
+.PHONY : 103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.s
+
+144-Binary_Tree_Preorder_Traversal(2).o: 144-Binary_Tree_Preorder_Traversal(2).cpp.o
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).o
+
+# target to build an object file
+144-Binary_Tree_Preorder_Traversal(2).cpp.o:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make "CMakeFiles/stack9.dir/144-Binary_Tree_Preorder_Traversal(2).cpp.o"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).cpp.o
+
+144-Binary_Tree_Preorder_Traversal(2).i: 144-Binary_Tree_Preorder_Traversal(2).cpp.i
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).i
+
+# target to preprocess a source file
+144-Binary_Tree_Preorder_Traversal(2).cpp.i:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make "CMakeFiles/stack9.dir/144-Binary_Tree_Preorder_Traversal(2).cpp.i"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).cpp.i
+
+144-Binary_Tree_Preorder_Traversal(2).s: 144-Binary_Tree_Preorder_Traversal(2).cpp.s
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).s
+
+# target to generate assembly for a file
+144-Binary_Tree_Preorder_Traversal(2).cpp.s:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make "CMakeFiles/stack9.dir/144-Binary_Tree_Preorder_Traversal(2).cpp.s"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(2).cpp.s
+
+144-Binary_Tree_Preorder_Traversal(3).o: 144-Binary_Tree_Preorder_Traversal(3).cpp.o
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).o
+
+# target to build an object file
+144-Binary_Tree_Preorder_Traversal(3).cpp.o:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make "CMakeFiles/stack10.dir/144-Binary_Tree_Preorder_Traversal(3).cpp.o"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).cpp.o
+
+144-Binary_Tree_Preorder_Traversal(3).i: 144-Binary_Tree_Preorder_Traversal(3).cpp.i
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).i
+
+# target to preprocess a source file
+144-Binary_Tree_Preorder_Traversal(3).cpp.i:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make "CMakeFiles/stack10.dir/144-Binary_Tree_Preorder_Traversal(3).cpp.i"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).cpp.i
+
+144-Binary_Tree_Preorder_Traversal(3).s: 144-Binary_Tree_Preorder_Traversal(3).cpp.s
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).s
+
+# target to generate assembly for a file
+144-Binary_Tree_Preorder_Traversal(3).cpp.s:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make "CMakeFiles/stack10.dir/144-Binary_Tree_Preorder_Traversal(3).cpp.s"
+.PHONY : 144-Binary_Tree_Preorder_Traversal(3).cpp.s
+
+144-Binary_Tree_Preorder_Traversal.o: 144-Binary_Tree_Preorder_Traversal.cpp.o
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal.o
+
+# target to build an object file
+144-Binary_Tree_Preorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/144-Binary_Tree_Preorder_Traversal.cpp.o
+.PHONY : 144-Binary_Tree_Preorder_Traversal.cpp.o
+
+144-Binary_Tree_Preorder_Traversal.i: 144-Binary_Tree_Preorder_Traversal.cpp.i
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal.i
+
+# target to preprocess a source file
+144-Binary_Tree_Preorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/144-Binary_Tree_Preorder_Traversal.cpp.i
+.PHONY : 144-Binary_Tree_Preorder_Traversal.cpp.i
+
+144-Binary_Tree_Preorder_Traversal.s: 144-Binary_Tree_Preorder_Traversal.cpp.s
+
+.PHONY : 144-Binary_Tree_Preorder_Traversal.s
+
+# target to generate assembly for a file
+144-Binary_Tree_Preorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/144-Binary_Tree_Preorder_Traversal.cpp.s
+.PHONY : 144-Binary_Tree_Preorder_Traversal.cpp.s
+
+145-Binary_Tree_Postorder_Traversal(2).o: 145-Binary_Tree_Postorder_Traversal(2).cpp.o
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).o
+
+# target to build an object file
+145-Binary_Tree_Postorder_Traversal(2).cpp.o:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make "CMakeFiles/stack14.dir/145-Binary_Tree_Postorder_Traversal(2).cpp.o"
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).cpp.o
+
+145-Binary_Tree_Postorder_Traversal(2).i: 145-Binary_Tree_Postorder_Traversal(2).cpp.i
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).i
+
+# target to preprocess a source file
+145-Binary_Tree_Postorder_Traversal(2).cpp.i:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make "CMakeFiles/stack14.dir/145-Binary_Tree_Postorder_Traversal(2).cpp.i"
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).cpp.i
+
+145-Binary_Tree_Postorder_Traversal(2).s: 145-Binary_Tree_Postorder_Traversal(2).cpp.s
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).s
+
+# target to generate assembly for a file
+145-Binary_Tree_Postorder_Traversal(2).cpp.s:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make "CMakeFiles/stack14.dir/145-Binary_Tree_Postorder_Traversal(2).cpp.s"
+.PHONY : 145-Binary_Tree_Postorder_Traversal(2).cpp.s
+
+145-Binary_Tree_Postorder_Traversal.o: 145-Binary_Tree_Postorder_Traversal.cpp.o
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal.o
+
+# target to build an object file
+145-Binary_Tree_Postorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/145-Binary_Tree_Postorder_Traversal.cpp.o
+.PHONY : 145-Binary_Tree_Postorder_Traversal.cpp.o
+
+145-Binary_Tree_Postorder_Traversal.i: 145-Binary_Tree_Postorder_Traversal.cpp.i
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal.i
+
+# target to preprocess a source file
+145-Binary_Tree_Postorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/145-Binary_Tree_Postorder_Traversal.cpp.i
+.PHONY : 145-Binary_Tree_Postorder_Traversal.cpp.i
+
+145-Binary_Tree_Postorder_Traversal.s: 145-Binary_Tree_Postorder_Traversal.cpp.s
+
+.PHONY : 145-Binary_Tree_Postorder_Traversal.s
+
+# target to generate assembly for a file
+145-Binary_Tree_Postorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/145-Binary_Tree_Postorder_Traversal.cpp.s
+.PHONY : 145-Binary_Tree_Postorder_Traversal.cpp.s
+
+150-Evaluate_Reverse_Polish_Notation.o: 150-Evaluate_Reverse_Polish_Notation.cpp.o
+
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.o
+
+# target to build an object file
+150-Evaluate_Reverse_Polish_Notation.cpp.o:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/150-Evaluate_Reverse_Polish_Notation.cpp.o
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.cpp.o
+
+150-Evaluate_Reverse_Polish_Notation.i: 150-Evaluate_Reverse_Polish_Notation.cpp.i
+
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.i
+
+# target to preprocess a source file
+150-Evaluate_Reverse_Polish_Notation.cpp.i:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/150-Evaluate_Reverse_Polish_Notation.cpp.i
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.cpp.i
+
+150-Evaluate_Reverse_Polish_Notation.s: 150-Evaluate_Reverse_Polish_Notation.cpp.s
+
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.s
+
+# target to generate assembly for a file
+150-Evaluate_Reverse_Polish_Notation.cpp.s:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/150-Evaluate_Reverse_Polish_Notation.cpp.s
+.PHONY : 150-Evaluate_Reverse_Polish_Notation.cpp.s
 
 155-minstack.o: 155-minstack.cpp.o
 
@@ -403,6 +735,87 @@ stack3/fast:
 	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/844-Backspace_String_Compare.cpp.s
 .PHONY : 844-Backspace_String_Compare.cpp.s
 
+856-Score_of_Parentheses.o: 856-Score_of_Parentheses.cpp.o
+
+.PHONY : 856-Score_of_Parentheses.o
+
+# target to build an object file
+856-Score_of_Parentheses.cpp.o:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/856-Score_of_Parentheses.cpp.o
+.PHONY : 856-Score_of_Parentheses.cpp.o
+
+856-Score_of_Parentheses.i: 856-Score_of_Parentheses.cpp.i
+
+.PHONY : 856-Score_of_Parentheses.i
+
+# target to preprocess a source file
+856-Score_of_Parentheses.cpp.i:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/856-Score_of_Parentheses.cpp.i
+.PHONY : 856-Score_of_Parentheses.cpp.i
+
+856-Score_of_Parentheses.s: 856-Score_of_Parentheses.cpp.s
+
+.PHONY : 856-Score_of_Parentheses.s
+
+# target to generate assembly for a file
+856-Score_of_Parentheses.cpp.s:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/856-Score_of_Parentheses.cpp.s
+.PHONY : 856-Score_of_Parentheses.cpp.s
+
+94-Binary_Tree_Inorder_Traversal(2).o: 94-Binary_Tree_Inorder_Traversal(2).cpp.o
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).o
+
+# target to build an object file
+94-Binary_Tree_Inorder_Traversal(2).cpp.o:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make "CMakeFiles/stack12.dir/94-Binary_Tree_Inorder_Traversal(2).cpp.o"
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).cpp.o
+
+94-Binary_Tree_Inorder_Traversal(2).i: 94-Binary_Tree_Inorder_Traversal(2).cpp.i
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).i
+
+# target to preprocess a source file
+94-Binary_Tree_Inorder_Traversal(2).cpp.i:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make "CMakeFiles/stack12.dir/94-Binary_Tree_Inorder_Traversal(2).cpp.i"
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).cpp.i
+
+94-Binary_Tree_Inorder_Traversal(2).s: 94-Binary_Tree_Inorder_Traversal(2).cpp.s
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).s
+
+# target to generate assembly for a file
+94-Binary_Tree_Inorder_Traversal(2).cpp.s:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make "CMakeFiles/stack12.dir/94-Binary_Tree_Inorder_Traversal(2).cpp.s"
+.PHONY : 94-Binary_Tree_Inorder_Traversal(2).cpp.s
+
+94-Binary_Tree_Inorder_Traversal.o: 94-Binary_Tree_Inorder_Traversal.cpp.o
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal.o
+
+# target to build an object file
+94-Binary_Tree_Inorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/94-Binary_Tree_Inorder_Traversal.cpp.o
+.PHONY : 94-Binary_Tree_Inorder_Traversal.cpp.o
+
+94-Binary_Tree_Inorder_Traversal.i: 94-Binary_Tree_Inorder_Traversal.cpp.i
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal.i
+
+# target to preprocess a source file
+94-Binary_Tree_Inorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/94-Binary_Tree_Inorder_Traversal.cpp.i
+.PHONY : 94-Binary_Tree_Inorder_Traversal.cpp.i
+
+94-Binary_Tree_Inorder_Traversal.s: 94-Binary_Tree_Inorder_Traversal.cpp.s
+
+.PHONY : 94-Binary_Tree_Inorder_Traversal.s
+
+# target to generate assembly for a file
+94-Binary_Tree_Inorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/94-Binary_Tree_Inorder_Traversal.cpp.s
+.PHONY : 94-Binary_Tree_Inorder_Traversal.cpp.s
+
 946-Validate_Stack_Sequences.o: 946-Validate_Stack_Sequences.cpp.o
 
 .PHONY : 946-Validate_Stack_Sequences.o
@@ -430,22 +843,81 @@ stack3/fast:
 	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/946-Validate_Stack_Sequences.cpp.s
 .PHONY : 946-Validate_Stack_Sequences.cpp.s
 
+Binary_Tree_Levelorder_traversal.o: Binary_Tree_Levelorder_traversal.cpp.o
+
+.PHONY : Binary_Tree_Levelorder_traversal.o
+
+# target to build an object file
+Binary_Tree_Levelorder_traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/Binary_Tree_Levelorder_traversal.cpp.o
+.PHONY : Binary_Tree_Levelorder_traversal.cpp.o
+
+Binary_Tree_Levelorder_traversal.i: Binary_Tree_Levelorder_traversal.cpp.i
+
+.PHONY : Binary_Tree_Levelorder_traversal.i
+
+# target to preprocess a source file
+Binary_Tree_Levelorder_traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/Binary_Tree_Levelorder_traversal.cpp.i
+.PHONY : Binary_Tree_Levelorder_traversal.cpp.i
+
+Binary_Tree_Levelorder_traversal.s: Binary_Tree_Levelorder_traversal.cpp.s
+
+.PHONY : Binary_Tree_Levelorder_traversal.s
+
+# target to generate assembly for a file
+Binary_Tree_Levelorder_traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/Binary_Tree_Levelorder_traversal.cpp.s
+.PHONY : Binary_Tree_Levelorder_traversal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... stack7"
-	@echo "... stack6"
+	@echo "... stack17"
+	@echo "... stack16"
+	@echo "... stack15"
+	@echo "... stack13"
+	@echo "... stack12"
 	@echo "... rebuild_cache"
-	@echo "... stack5"
-	@echo "... stack2"
-	@echo "... stack4"
-	@echo "... stack"
-	@echo "... stack1"
+	@echo "... stack11"
+	@echo "... stack10"
 	@echo "... stack3"
+	@echo "... stack9"
+	@echo "... edit_cache"
+	@echo "... stack1"
+	@echo "... stack"
+	@echo "... stack4"
+	@echo "... stack18"
+	@echo "... stack14"
+	@echo "... stack2"
+	@echo "... stack6"
+	@echo "... stack5"
+	@echo "... stack8"
+	@echo "... stack7"
+	@echo "... 103-Binary_Tree_Zigzag_Level_Order_Traversal.o"
+	@echo "... 103-Binary_Tree_Zigzag_Level_Order_Traversal.i"
+	@echo "... 103-Binary_Tree_Zigzag_Level_Order_Traversal.s"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(2).o"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(2).i"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(2).s"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(3).o"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(3).i"
+	@echo "... 144-Binary_Tree_Preorder_Traversal(3).s"
+	@echo "... 144-Binary_Tree_Preorder_Traversal.o"
+	@echo "... 144-Binary_Tree_Preorder_Traversal.i"
+	@echo "... 144-Binary_Tree_Preorder_Traversal.s"
+	@echo "... 145-Binary_Tree_Postorder_Traversal(2).o"
+	@echo "... 145-Binary_Tree_Postorder_Traversal(2).i"
+	@echo "... 145-Binary_Tree_Postorder_Traversal(2).s"
+	@echo "... 145-Binary_Tree_Postorder_Traversal.o"
+	@echo "... 145-Binary_Tree_Postorder_Traversal.i"
+	@echo "... 145-Binary_Tree_Postorder_Traversal.s"
+	@echo "... 150-Evaluate_Reverse_Polish_Notation.o"
+	@echo "... 150-Evaluate_Reverse_Polish_Notation.i"
+	@echo "... 150-Evaluate_Reverse_Polish_Notation.s"
 	@echo "... 155-minstack.o"
 	@echo "... 155-minstack.i"
 	@echo "... 155-minstack.s"
@@ -467,9 +939,21 @@ help:
 	@echo "... 844-Backspace_String_Compare.o"
 	@echo "... 844-Backspace_String_Compare.i"
 	@echo "... 844-Backspace_String_Compare.s"
+	@echo "... 856-Score_of_Parentheses.o"
+	@echo "... 856-Score_of_Parentheses.i"
+	@echo "... 856-Score_of_Parentheses.s"
+	@echo "... 94-Binary_Tree_Inorder_Traversal(2).o"
+	@echo "... 94-Binary_Tree_Inorder_Traversal(2).i"
+	@echo "... 94-Binary_Tree_Inorder_Traversal(2).s"
+	@echo "... 94-Binary_Tree_Inorder_Traversal.o"
+	@echo "... 94-Binary_Tree_Inorder_Traversal.i"
+	@echo "... 94-Binary_Tree_Inorder_Traversal.s"
 	@echo "... 946-Validate_Stack_Sequences.o"
 	@echo "... 946-Validate_Stack_Sequences.i"
 	@echo "... 946-Validate_Stack_Sequences.s"
+	@echo "... Binary_Tree_Levelorder_traversal.o"
+	@echo "... Binary_Tree_Levelorder_traversal.i"
+	@echo "... Binary_Tree_Levelorder_traversal.s"
 .PHONY : help
 
 

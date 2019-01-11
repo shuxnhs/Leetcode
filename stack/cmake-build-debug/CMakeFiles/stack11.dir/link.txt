@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack11.dir/94-Binary_Tree_Inorder_Traversal.cpp.o  -o stack11 

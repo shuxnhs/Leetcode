@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack16.dir/103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp.o  -o stack16 

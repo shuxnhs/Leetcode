@@ -1,6 +1,6 @@
 //
 // Created by shuxnhs on 18-12-4.
-//二叉树的中序遍历的递归算法
+//二叉树的后序遍历的递归算法
 //
 #include <iostream>
 #include <stack>

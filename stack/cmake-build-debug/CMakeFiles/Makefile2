@@ -65,224 +65,335 @@ CMAKE_SOURCE_DIR = /home/shuxnhs/Documents/C++/stack
 CMAKE_BINARY_DIR = /home/shuxnhs/Documents/C++/stack/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack7.dir
+# Target rules for target CMakeFiles/stack17.dir
 
 # All Build rule for target.
-CMakeFiles/stack7.dir/all:
-	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/depend
-	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target stack7"
-.PHONY : CMakeFiles/stack7.dir/all
+CMakeFiles/stack17.dir/all:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/depend
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target stack17"
+.PHONY : CMakeFiles/stack17.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack7.dir/all
+all: CMakeFiles/stack17.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack7.dir/rule: cmake_check_build_system
+CMakeFiles/stack17.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack7.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack7.dir/rule
+.PHONY : CMakeFiles/stack17.dir/rule
 
 # Convenience name for target.
-stack7: CMakeFiles/stack7.dir/rule
+stack17: CMakeFiles/stack17.dir/rule
 
-.PHONY : stack7
-
-# clean rule for target.
-CMakeFiles/stack7.dir/clean:
-	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/clean
-.PHONY : CMakeFiles/stack7.dir/clean
+.PHONY : stack17
 
 # clean rule for target.
-clean: CMakeFiles/stack7.dir/clean
+CMakeFiles/stack17.dir/clean:
+	$(MAKE) -f CMakeFiles/stack17.dir/build.make CMakeFiles/stack17.dir/clean
+.PHONY : CMakeFiles/stack17.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack17.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack6.dir
+# Target rules for target CMakeFiles/stack16.dir
 
 # All Build rule for target.
-CMakeFiles/stack6.dir/all:
-	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/depend
-	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target stack6"
-.PHONY : CMakeFiles/stack6.dir/all
+CMakeFiles/stack16.dir/all:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/depend
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target stack16"
+.PHONY : CMakeFiles/stack16.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack6.dir/all
+all: CMakeFiles/stack16.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack6.dir/rule: cmake_check_build_system
+CMakeFiles/stack16.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack6.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack16.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack6.dir/rule
+.PHONY : CMakeFiles/stack16.dir/rule
 
 # Convenience name for target.
-stack6: CMakeFiles/stack6.dir/rule
+stack16: CMakeFiles/stack16.dir/rule
 
-.PHONY : stack6
-
-# clean rule for target.
-CMakeFiles/stack6.dir/clean:
-	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/clean
-.PHONY : CMakeFiles/stack6.dir/clean
+.PHONY : stack16
 
 # clean rule for target.
-clean: CMakeFiles/stack6.dir/clean
+CMakeFiles/stack16.dir/clean:
+	$(MAKE) -f CMakeFiles/stack16.dir/build.make CMakeFiles/stack16.dir/clean
+.PHONY : CMakeFiles/stack16.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack16.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack5.dir
+# Target rules for target CMakeFiles/stack15.dir
 
 # All Build rule for target.
-CMakeFiles/stack5.dir/all:
-	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/depend
-	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target stack5"
-.PHONY : CMakeFiles/stack5.dir/all
+CMakeFiles/stack15.dir/all:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/depend
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target stack15"
+.PHONY : CMakeFiles/stack15.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack5.dir/all
+all: CMakeFiles/stack15.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack5.dir/rule: cmake_check_build_system
+CMakeFiles/stack15.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack5.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack15.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack5.dir/rule
+.PHONY : CMakeFiles/stack15.dir/rule
 
 # Convenience name for target.
-stack5: CMakeFiles/stack5.dir/rule
+stack15: CMakeFiles/stack15.dir/rule
 
-.PHONY : stack5
-
-# clean rule for target.
-CMakeFiles/stack5.dir/clean:
-	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/clean
-.PHONY : CMakeFiles/stack5.dir/clean
+.PHONY : stack15
 
 # clean rule for target.
-clean: CMakeFiles/stack5.dir/clean
+CMakeFiles/stack15.dir/clean:
+	$(MAKE) -f CMakeFiles/stack15.dir/build.make CMakeFiles/stack15.dir/clean
+.PHONY : CMakeFiles/stack15.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack15.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack2.dir
+# Target rules for target CMakeFiles/stack13.dir
 
 # All Build rule for target.
-CMakeFiles/stack2.dir/all:
-	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/depend
-	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target stack2"
-.PHONY : CMakeFiles/stack2.dir/all
+CMakeFiles/stack13.dir/all:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/depend
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target stack13"
+.PHONY : CMakeFiles/stack13.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack2.dir/all
+all: CMakeFiles/stack13.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack2.dir/rule: cmake_check_build_system
+CMakeFiles/stack13.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack2.dir/rule
+.PHONY : CMakeFiles/stack13.dir/rule
 
 # Convenience name for target.
-stack2: CMakeFiles/stack2.dir/rule
+stack13: CMakeFiles/stack13.dir/rule
 
-.PHONY : stack2
-
-# clean rule for target.
-CMakeFiles/stack2.dir/clean:
-	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/clean
-.PHONY : CMakeFiles/stack2.dir/clean
+.PHONY : stack13
 
 # clean rule for target.
-clean: CMakeFiles/stack2.dir/clean
+CMakeFiles/stack13.dir/clean:
+	$(MAKE) -f CMakeFiles/stack13.dir/build.make CMakeFiles/stack13.dir/clean
+.PHONY : CMakeFiles/stack13.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack13.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack4.dir
+# Target rules for target CMakeFiles/stack12.dir
 
 # All Build rule for target.
-CMakeFiles/stack4.dir/all:
-	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/depend
-	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target stack4"
-.PHONY : CMakeFiles/stack4.dir/all
+CMakeFiles/stack12.dir/all:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make CMakeFiles/stack12.dir/depend
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make CMakeFiles/stack12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target stack12"
+.PHONY : CMakeFiles/stack12.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack4.dir/all
+all: CMakeFiles/stack12.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack4.dir/rule: cmake_check_build_system
+CMakeFiles/stack12.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack4.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack4.dir/rule
+.PHONY : CMakeFiles/stack12.dir/rule
 
 # Convenience name for target.
-stack4: CMakeFiles/stack4.dir/rule
+stack12: CMakeFiles/stack12.dir/rule
 
-.PHONY : stack4
-
-# clean rule for target.
-CMakeFiles/stack4.dir/clean:
-	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/clean
-.PHONY : CMakeFiles/stack4.dir/clean
+.PHONY : stack12
 
 # clean rule for target.
-clean: CMakeFiles/stack4.dir/clean
+CMakeFiles/stack12.dir/clean:
+	$(MAKE) -f CMakeFiles/stack12.dir/build.make CMakeFiles/stack12.dir/clean
+.PHONY : CMakeFiles/stack12.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack12.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack.dir
+# Target rules for target CMakeFiles/stack11.dir
 
 # All Build rule for target.
-CMakeFiles/stack.dir/all:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/depend
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target stack"
-.PHONY : CMakeFiles/stack.dir/all
+CMakeFiles/stack11.dir/all:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/depend
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target stack11"
+.PHONY : CMakeFiles/stack11.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack.dir/all
+all: CMakeFiles/stack11.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack.dir/rule: cmake_check_build_system
+CMakeFiles/stack11.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack.dir/rule
+.PHONY : CMakeFiles/stack11.dir/rule
 
 # Convenience name for target.
-stack: CMakeFiles/stack.dir/rule
+stack11: CMakeFiles/stack11.dir/rule
 
-.PHONY : stack
-
-# clean rule for target.
-CMakeFiles/stack.dir/clean:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/clean
-.PHONY : CMakeFiles/stack.dir/clean
+.PHONY : stack11
 
 # clean rule for target.
-clean: CMakeFiles/stack.dir/clean
+CMakeFiles/stack11.dir/clean:
+	$(MAKE) -f CMakeFiles/stack11.dir/build.make CMakeFiles/stack11.dir/clean
+.PHONY : CMakeFiles/stack11.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack11.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack10.dir
+
+# All Build rule for target.
+CMakeFiles/stack10.dir/all:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make CMakeFiles/stack10.dir/depend
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make CMakeFiles/stack10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target stack10"
+.PHONY : CMakeFiles/stack10.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack10.dir/rule
+
+# Convenience name for target.
+stack10: CMakeFiles/stack10.dir/rule
+
+.PHONY : stack10
+
+# clean rule for target.
+CMakeFiles/stack10.dir/clean:
+	$(MAKE) -f CMakeFiles/stack10.dir/build.make CMakeFiles/stack10.dir/clean
+.PHONY : CMakeFiles/stack10.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack3.dir
+
+# All Build rule for target.
+CMakeFiles/stack3.dir/all:
+	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/depend
+	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target stack3"
+.PHONY : CMakeFiles/stack3.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack3.dir/rule
+
+# Convenience name for target.
+stack3: CMakeFiles/stack3.dir/rule
+
+.PHONY : stack3
+
+# clean rule for target.
+CMakeFiles/stack3.dir/clean:
+	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/clean
+.PHONY : CMakeFiles/stack3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack9.dir
+
+# All Build rule for target.
+CMakeFiles/stack9.dir/all:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make CMakeFiles/stack9.dir/depend
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make CMakeFiles/stack9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target stack9"
+.PHONY : CMakeFiles/stack9.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack9.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack9.dir/rule
+
+# Convenience name for target.
+stack9: CMakeFiles/stack9.dir/rule
+
+.PHONY : stack9
+
+# clean rule for target.
+CMakeFiles/stack9.dir/clean:
+	$(MAKE) -f CMakeFiles/stack9.dir/build.make CMakeFiles/stack9.dir/clean
+.PHONY : CMakeFiles/stack9.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack9.dir/clean
 
 .PHONY : clean
 
@@ -324,39 +435,335 @@ clean: CMakeFiles/stack1.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/stack3.dir
+# Target rules for target CMakeFiles/stack.dir
 
 # All Build rule for target.
-CMakeFiles/stack3.dir/all:
-	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/depend
-	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target stack3"
-.PHONY : CMakeFiles/stack3.dir/all
+CMakeFiles/stack.dir/all:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/depend
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target stack"
+.PHONY : CMakeFiles/stack.dir/all
 
 # Include target in all.
-all: CMakeFiles/stack3.dir/all
+all: CMakeFiles/stack.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/stack3.dir/rule: cmake_check_build_system
+CMakeFiles/stack.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack3.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack3.dir/rule
+.PHONY : CMakeFiles/stack.dir/rule
 
 # Convenience name for target.
-stack3: CMakeFiles/stack3.dir/rule
+stack: CMakeFiles/stack.dir/rule
 
-.PHONY : stack3
-
-# clean rule for target.
-CMakeFiles/stack3.dir/clean:
-	$(MAKE) -f CMakeFiles/stack3.dir/build.make CMakeFiles/stack3.dir/clean
-.PHONY : CMakeFiles/stack3.dir/clean
+.PHONY : stack
 
 # clean rule for target.
-clean: CMakeFiles/stack3.dir/clean
+CMakeFiles/stack.dir/clean:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/clean
+.PHONY : CMakeFiles/stack.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack4.dir
+
+# All Build rule for target.
+CMakeFiles/stack4.dir/all:
+	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/depend
+	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target stack4"
+.PHONY : CMakeFiles/stack4.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack4.dir/rule
+
+# Convenience name for target.
+stack4: CMakeFiles/stack4.dir/rule
+
+.PHONY : stack4
+
+# clean rule for target.
+CMakeFiles/stack4.dir/clean:
+	$(MAKE) -f CMakeFiles/stack4.dir/build.make CMakeFiles/stack4.dir/clean
+.PHONY : CMakeFiles/stack4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack18.dir
+
+# All Build rule for target.
+CMakeFiles/stack18.dir/all:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/depend
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target stack18"
+.PHONY : CMakeFiles/stack18.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack18.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack18.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack18.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack18.dir/rule
+
+# Convenience name for target.
+stack18: CMakeFiles/stack18.dir/rule
+
+.PHONY : stack18
+
+# clean rule for target.
+CMakeFiles/stack18.dir/clean:
+	$(MAKE) -f CMakeFiles/stack18.dir/build.make CMakeFiles/stack18.dir/clean
+.PHONY : CMakeFiles/stack18.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack18.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack14.dir
+
+# All Build rule for target.
+CMakeFiles/stack14.dir/all:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make CMakeFiles/stack14.dir/depend
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make CMakeFiles/stack14.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target stack14"
+.PHONY : CMakeFiles/stack14.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack14.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack14.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack14.dir/rule
+
+# Convenience name for target.
+stack14: CMakeFiles/stack14.dir/rule
+
+.PHONY : stack14
+
+# clean rule for target.
+CMakeFiles/stack14.dir/clean:
+	$(MAKE) -f CMakeFiles/stack14.dir/build.make CMakeFiles/stack14.dir/clean
+.PHONY : CMakeFiles/stack14.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack14.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack2.dir
+
+# All Build rule for target.
+CMakeFiles/stack2.dir/all:
+	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/depend
+	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target stack2"
+.PHONY : CMakeFiles/stack2.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack2.dir/rule
+
+# Convenience name for target.
+stack2: CMakeFiles/stack2.dir/rule
+
+.PHONY : stack2
+
+# clean rule for target.
+CMakeFiles/stack2.dir/clean:
+	$(MAKE) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/clean
+.PHONY : CMakeFiles/stack2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack6.dir
+
+# All Build rule for target.
+CMakeFiles/stack6.dir/all:
+	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/depend
+	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target stack6"
+.PHONY : CMakeFiles/stack6.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack6.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack6.dir/rule
+
+# Convenience name for target.
+stack6: CMakeFiles/stack6.dir/rule
+
+.PHONY : stack6
+
+# clean rule for target.
+CMakeFiles/stack6.dir/clean:
+	$(MAKE) -f CMakeFiles/stack6.dir/build.make CMakeFiles/stack6.dir/clean
+.PHONY : CMakeFiles/stack6.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack6.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack5.dir
+
+# All Build rule for target.
+CMakeFiles/stack5.dir/all:
+	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/depend
+	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target stack5"
+.PHONY : CMakeFiles/stack5.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack5.dir/rule
+
+# Convenience name for target.
+stack5: CMakeFiles/stack5.dir/rule
+
+.PHONY : stack5
+
+# clean rule for target.
+CMakeFiles/stack5.dir/clean:
+	$(MAKE) -f CMakeFiles/stack5.dir/build.make CMakeFiles/stack5.dir/clean
+.PHONY : CMakeFiles/stack5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack5.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack8.dir
+
+# All Build rule for target.
+CMakeFiles/stack8.dir/all:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/depend
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target stack8"
+.PHONY : CMakeFiles/stack8.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack8.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack8.dir/rule
+
+# Convenience name for target.
+stack8: CMakeFiles/stack8.dir/rule
+
+.PHONY : stack8
+
+# clean rule for target.
+CMakeFiles/stack8.dir/clean:
+	$(MAKE) -f CMakeFiles/stack8.dir/build.make CMakeFiles/stack8.dir/clean
+.PHONY : CMakeFiles/stack8.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack8.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack7.dir
+
+# All Build rule for target.
+CMakeFiles/stack7.dir/all:
+	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/depend
+	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target stack7"
+.PHONY : CMakeFiles/stack7.dir/all
+
+# Include target in all.
+all: CMakeFiles/stack7.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuxnhs/Documents/C++/stack/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack7.dir/rule
+
+# Convenience name for target.
+stack7: CMakeFiles/stack7.dir/rule
+
+.PHONY : stack7
+
+# clean rule for target.
+CMakeFiles/stack7.dir/clean:
+	$(MAKE) -f CMakeFiles/stack7.dir/build.make CMakeFiles/stack7.dir/clean
+.PHONY : CMakeFiles/stack7.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stack7.dir/clean
 
 .PHONY : clean
 

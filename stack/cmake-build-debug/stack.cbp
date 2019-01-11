@@ -17,18 +17,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack7">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack7" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack17">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack17" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -43,14 +33,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack7"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack17"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack7/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack7" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack17/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack17" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -65,14 +55,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack7/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack17/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack6">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack6" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack16">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack16" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -87,14 +77,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack6"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack16"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack6/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack6" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack16/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack16" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -109,7 +99,139 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack6/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack16/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack15">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack15"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack15/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack15/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack13">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack13"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack13/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack13/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack12">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack12"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack12/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack12/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -125,8 +247,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack5">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack5" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack11">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -141,14 +263,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack5"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack11"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack5/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack5" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack11/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -163,14 +285,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack5/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack11/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack2">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack10">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack10" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -185,14 +307,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack10"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="stack2/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+			<Target title="stack10/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack10" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -207,139 +329,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack4">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack4"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack4/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack4/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack1">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stack1/fast">
-				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack1/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack10/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -389,7 +379,522 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="stack9">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack9"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack9/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack9/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack1">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack1/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack4">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack4/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack18">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack18"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack18/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack18/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack14">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack14"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack14/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack14/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack2">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack2/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack6">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack6/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack5">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack5/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack8">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack8/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack7">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack7/fast">
+				<Option output="/home/shuxnhs/Documents/C++/stack/cmake-build-debug/stack7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuxnhs/Documents/C++/stack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuxnhs/Documents/C++/stack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/103-Binary Tree Zigzag Level Order Traversal.cpp">
+			<Option target="stack16"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/144-Binary Tree Preorder Traversal(2).cpp">
+			<Option target="stack9"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/144-Binary Tree Preorder Traversal(3).cpp">
+			<Option target="stack10"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/144-Binary Tree Preorder Traversal.cpp">
+			<Option target="stack8"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/145-Binary Tree Postorder Traversal(2).cpp">
+			<Option target="stack14"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/145-Binary Tree Postorder Traversal.cpp">
+			<Option target="stack13"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/150-Evaluate Reverse Polish Notation.cpp">
+			<Option target="stack17"/>
+		</Unit>
 		<Unit filename="/home/shuxnhs/Documents/C++/stack/155-minstack.cpp">
 			<Option target="stack"/>
 		</Unit>
@@ -411,8 +916,20 @@
 		<Unit filename="/home/shuxnhs/Documents/C++/stack/844-Backspace String Compare.cpp">
 			<Option target="stack5"/>
 		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/856-Score of Parentheses.cpp">
+			<Option target="stack18"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/94-Binary Tree Inorder Traversal(2).cpp">
+			<Option target="stack12"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/94-Binary Tree Inorder Traversal.cpp">
+			<Option target="stack11"/>
+		</Unit>
 		<Unit filename="/home/shuxnhs/Documents/C++/stack/946-Validate Stack Sequences.cpp">
 			<Option target="stack7"/>
+		</Unit>
+		<Unit filename="/home/shuxnhs/Documents/C++/stack/Binary Tree Levelorder traversal.cpp">
+			<Option target="stack15"/>
 		</Unit>
 		<Unit filename="/home/shuxnhs/Documents/C++/stack/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stack17.dir/150-Evaluate_Reverse_Polish_Notation.cpp.o  -o stack17 

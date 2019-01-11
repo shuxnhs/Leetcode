@@ -15,6 +15,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
+
+
 //创建树
 TreeNode* createTree(int a[], int n)
 {
@@ -72,7 +74,7 @@ public:
 };
 
 int main(){
-    int a[] = {1, NULL ,2,3};
+    int a[] = {1, 4 ,2,3};
     TreeNode* p = createTree(a, sizeof(a)/sizeof(int));
     vector<int> result;
     Solution solution;

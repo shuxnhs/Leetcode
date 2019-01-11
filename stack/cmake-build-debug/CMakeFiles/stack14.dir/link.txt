@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   "CMakeFiles/stack14.dir/145-Binary_Tree_Postorder_Traversal(2).cpp.o"  -o stack14 
